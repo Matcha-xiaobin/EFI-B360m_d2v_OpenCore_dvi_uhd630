@@ -1,5 +1,5 @@
 # EFI-B360m_d2v_OpenCore_dvi_uhd630
-OC引导文件
+OC引导工具 EFI 配置文件
 
 Open Core版本:  0.5.3 11/27 详情: [Open Core 最新自动编译版](https://github.com/williambj1/OpenCore-Factory)
 
