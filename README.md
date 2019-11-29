@@ -10,8 +10,9 @@ Clover引导文件请看这里：[Clover引导](https://github.com/Matchas-xiaob
 处理器: i5-8400
 主板: 技嘉 B360m d2v
 内存: 16G
-显卡: uHD630(核显)
-网卡: 内建
+显卡: UHD630(核显)
+声卡: 内建Realtek® ALC887芯片
+网卡: 内建Realtek® GbE 网络芯片(10/100/1000 Mbit)
 无线网卡: 无
 ```
 
