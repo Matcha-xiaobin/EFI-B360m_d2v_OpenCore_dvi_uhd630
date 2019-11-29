@@ -3,7 +3,7 @@ OC引导文件
 ```
 1. OC引导目前还挺好用的了，不过不爱折腾的建议还是使用Clover引导，目前OC引导更新的有点快，可能每次更新都会有较多改动
 2. 我是用Clover引导装好了系统，然后才来弄的OC引导
-3. Clover引导文件请看这里：[Clover引导(https://github.com/Matchas-xiaobin/EFI-B360m_d2v_dvi_uhd630)]
+3. Clover引导文件请看这里：[Clover引导](https://github.com/Matchas-xiaobin/EFI-B360m_d2v_dvi_uhd630)
 ```
 
 # 目前进度
@@ -26,7 +26,7 @@ OC引导文件
 
 # 其他问题   
 ```
-1. open core版本:  0.5.3 11/27 详情: [Open Core 最新自编译(https://github.com/williambj1/OpenCore-Factory)]
+1. open core版本:  0.5.3 11/27 详情: [Open Core 最新自编译](https://github.com/williambj1/OpenCore-Factory)
 2. macOS版本:  10.15.1
 3. 通过DVI或者VGA输出实测都可以
 4. 不保证一定能用，不会搞，全是在网上找别的大佬的文件后折腾，在自己电脑上是可以正常运行了。
