@@ -6,8 +6,13 @@ Open Core版本:  0.5.3 11/27 详情: [Open Core 最新自动编译版](https://
 Clover引导文件请看这里：[Clover引导](https://github.com/Matchas-xiaobin/EFI-B360m_d2v_dvi_uhd630)
 
 ```
-1. OC引导目前还挺好用的了，不过不爱折腾的建议还是使用Clover引导，目前OC引导更新的有点快，可能每次更新都会有较多改动
-2. 我是用Clover引导装好了系统，然后才来弄的OC引导
+机器配置:
+处理器: i5-8400
+主板: 技嘉 B360m d2v
+内存: 16G
+显卡: uHD630(核显)
+网卡: 内建
+无线网卡: 无
 ```
 
 # 目前进度
