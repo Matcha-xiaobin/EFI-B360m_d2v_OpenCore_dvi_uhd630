@@ -719,8 +719,8 @@
 				<data>emgtSGFuczoyNTI=</data>
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
-				<key>csr-active-cpnfig</key>
-				<string>e7030000</string>
+				<key>csr-active-config</key>
+				<data>5wMAAA==</data>
 			</dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
