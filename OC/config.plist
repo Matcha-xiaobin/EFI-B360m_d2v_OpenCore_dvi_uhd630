@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>PLUG-_SB.PR00</string>
+				<string>XCPM-_SB.PR00</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -21,6 +21,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PM.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>RTC</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ARTC.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -50,7 +58,7 @@
 				<key>TableSignature</key>
 				<data></data>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Limit</key>
 				<integer>0</integer>
 			</dict>
@@ -183,7 +191,7 @@
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>DevirtualiseMmio</key>
-			<false/>
+			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>SetupVirtualMap</key>
@@ -204,6 +212,8 @@
 			<dict>
 				<key>layout-id</key>
 				<data>CwAAAA==</data>
+				<key>No-hda-gfx</key>
+				<data>AAAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -215,6 +225,8 @@
 				<data>mz4AAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>disable-external-gpu</key>
+				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-busid</key>
@@ -222,7 +234,7 @@
 				<key>framebuffer-con0-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-pipe</key>
-				<data>CAAAAA==</data>
+				<data>EgAAAA==</data>
 				<key>framebuffer-con0-type</key>
 				<data>EAAAAA==</data>
 				<key>framebuffer-con1-busid</key>
@@ -230,23 +242,31 @@
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-pipe</key>
-				<data>CQAAAA==</data>
+				<data>EgAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
 				<key>framebuffer-con2-busid</key>
 				<data>AAAAAA==</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-con2-index</key>
+				<data>/////w==</data>
 				<key>framebuffer-con2-pipe</key>
-				<data>CgAAAA==</data>
+				<data>EgAAAA==</data>
 				<key>framebuffer-con2-type</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-portcount</key>
+				<data>AgAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
 				<key>model</key>
-				<string>Intel UHD Graphics 630 (Desktop)</string>
+				<string>Intel UHD Graphics 630 (Mobile)</string>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -383,7 +403,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>PlistPath</key>
@@ -399,9 +419,25 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessor</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Comment</key>
+				<string>HibernationFixup</string>
+				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -720,7 +756,7 @@
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
+				<data>AAAAAA==</data>
 			</dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
@@ -734,15 +770,15 @@
 		<key>Generic</key>
 		<dict>
 			<key>SystemProductName</key>
-			<string>iMac18,1</string>
+			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02T523VH7JY</string>
+			<string>C07WDGZAJYVX</string>
 			<key>SystemUUID</key>
-			<string>01C85CD0-BD81-540E-8D32-38B277BBCCD2</string>
+			<string>E82089C7-A8ED-42E4-B850-321825E306C8</string>
 			<key>MLB</key>
-			<string>C02704405GUDKG2CB</string>
+			<string>C07810108J91H</string>
 			<key>ROM</key>
-			<data>MwcACAAJ</data>
+			<data>ONyR4wbI</data>
 			<key>SpoofVendor</key>
 			<true/>
 		</dict>
