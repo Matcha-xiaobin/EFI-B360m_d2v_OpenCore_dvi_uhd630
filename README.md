@@ -1,9 +1,24 @@
 # EFI-B360m_d2v_OpenCore_dvi_uhd630
 OC引导工具 EFI 配置文件
 
-Open Core版本:  0.5.3 11/27 详情: [Open Core 最新自动编译版](https://github.com/williambj1/OpenCore-Factory)、[Open Core 官方版](https://github.com/acidanthera/OpenCorePkg/releases)
+Open Core版本: 0.5.3 详情: [Open Core 最新自动编译版](https://github.com/williambj1/OpenCore-Factory)、[Open Core 官方版](https://github.com/acidanthera/OpenCorePkg/releases)
 
 Clover引导文件请看这里：[Clover引导](https://github.com/Matchas-xiaobin/EFI-B360m_d2v_dvi_uhd630)
+
+# 参考资料
+很多教程和系统下载: [黑果小兵的部落阁](https://blog.daliansky.net/)
+XJN大佬的OC教程: [使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
+黑果小兵的OC教程: [精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
+
+# 机器配置
+```
+CPU: intel i5-8400
+主板: GIGABYTE B360m d2v
+内存: 16G
+显卡: UHD630
+声卡: Realtek® ALC887芯片
+网卡: Realtek® GbE 网络芯片(10/100/1000 Mbit)
+```
 
 # 更新记录
 ### 2019.12.6
@@ -13,17 +28,6 @@ Clover引导文件请看这里：[Clover引导](https://github.com/Matchas-xiaob
 3. 机型更换成 Macmini8,1 (所以如果之前用了我的EFI, 更新这个后, 机型会变, 需要重新登录Apple ID);
 4. 升级OC版本为 0.5.3 正式版;
 5. RTC重命名为ARTC(应该是没啥意义和实际作用, 白苹果强迫症);
-```
-
-```
-机器配置:
-处理器: i5-8400
-主板: 技嘉 B360m d2v
-内存: 16G
-显卡: UHD630(核显)
-声卡: 内建Realtek® ALC887芯片
-网卡: 内建Realtek® GbE 网络芯片(10/100/1000 Mbit)
-无线网卡: 无
 ```
 
 # 目前进度
