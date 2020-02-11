@@ -7,7 +7,9 @@ Clover引导文件请看这里：[Clover引导](https://github.com/Matchas-xiaob
 
 # 参考资料
 很多教程和系统下载: [黑果小兵的部落阁](https://blog.daliansky.net/)
+
 XJN大佬的OC教程: [使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
+
 黑果小兵的OC教程: [精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
 
 # 机器配置
@@ -21,6 +23,12 @@ CPU: intel i5-8400
 ```
 
 # 更新记录
+
+### 2020.2.11 系统版本 10.15.3
+```
+1. 去掉一些没用的重命名patch;
+2. 加入强制睡眠aml，尝试修复10.15.2开始出现的无法睡眠的问题;
+```
 
 ### 2020.2.10 系统版本 10.15.3
 ```
