@@ -28,11 +28,23 @@ CPU: intel i5-8400
 
 # 更新记录
 
+### 2020.2.27 系统版本 10.15.3
+```
+1. 解锁CFG Lock;
+请务必解锁CFG在使用这个EFI配置, 如果不解锁CFG或者不会, 请修改config.plist如下配置内容:
+Kernel—–Quirks: AppleCpuPmCfgLock - yes/true
+Kernel—–Quirks: AppleXcpmCfgLock - yes/true
+UEFI—-Quirks: IgnoreInvalidFlexRatio - yes/true
+(危!)没有解锁CFG并且没有修改这几个参数, 将会无法引导系统。
+解锁方式可以参考CFG Lock文件夹下的相关文档以及使用 'baidu'、'google' 等搜索引擎进行搜索
+2. 修改缓冲帧信息, 核显不在识别为移动端。
+```
+
 ### 2020.2.24 系统版本 10.15.3
 ```
 1. 升级OC版本到0.5.6;
 2. 启动转换助理貌似可以用了, 没测试, 但是之前打开后点继续是发生内部错误;
-3. 注意自行修改EFI中机型信息
+3. 注意自行修改EFI中机型信息;
 ```
 
 ### 2020.2.11 系统版本 10.15.3
