@@ -28,16 +28,23 @@ CPU: intel i5-8400
 
 # 更新记录
 
-### 2020.2.27 系统版本 10.15.3
+### 2020.2.29 系统版本 10.15.3
 ```
 1. 解锁CFG Lock;
-请务必解锁CFG在使用这个EFI配置, 如果不解锁CFG或者不会, 请修改config.plist如下配置内容:
-Kernel—–Quirks: AppleCpuPmCfgLock - yes/true
-Kernel—–Quirks: AppleXcpmCfgLock - yes/true
-UEFI—-Quirks: IgnoreInvalidFlexRatio - yes/true
+默认不需要解锁，如果你解锁了，可以尝试 请修改config.plist如下配置内容:
+Kernel—–Quirks: AppleCpuPmCfgLock - yes/true -> no/false
+Kernel—–Quirks: AppleXcpmCfgLock - yes/true -> no/false
+UEFI—-Quirks: IgnoreInvalidFlexRatio - yes/true -> no/false
 (危!)没有解锁CFG并且没有修改这几个参数, 将会无法引导系统。
 解锁方式可以参考CFG Lock文件夹下的相关文档以及使用 'baidu'、'google' 等搜索引擎进行搜索
-2. 修改缓冲帧信息, 核显不在识别为移动端。
+2. 修改机型为iMac19,2 解决开机鼠标, 键盘会卡顿的现象。
+3. 修复USB定制的问题，包括USB供电，USB端口全部设为非内置。
+4. 添加宪武大大的 '添加缺失的部件' 补丁。
+```
+
+### 2020.2.27 系统版本 10.15.3
+```
+1. 修改缓冲帧信息, 核显不在识别为移动端。
 ```
 
 ### 2020.2.24 系统版本 10.15.3
